@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="navstyles.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="loader.css">
+  </head>
+  <body>
+    <!-- Loading screen — sabse pehle -->
+     <div id="loader">
+      <div class="loader-content">
+        <h2 class="loader-logo">Welcome To My Portfolio</h2>
+        <div class="loader-bar">
+          <div class="loader-fill"></div>
+        </div>
+      </div>
+     </div>
+
+
+    <nav id="navbar">
+      <a class="logo" href="#home">&lt;Saad /&gt;</a>
+
+      <div class="hamburger" id="hamburger" aria-label="menu toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-btn active">Home</a></li>
+        <li><a href="#about" class="nav-btn">About</a></li>
+        <li><a href="#skills" class="nav-btn">Skills</a></li>
+        <li><a href="#projects" class="nav-btn">Projects</a></li>
+        <li><a href="#contact" class="nav-btn">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home">
+        <div class="hero-container">
+          <div class="hero-text">
+            <p class="hero-tag">HELLO, I'M</p>
+            <h1>
+              Hi, I'm
+              <span class="gradient-name">Saad</span>
+            </h1>
+            <h2>
+              I am a
+              <span class="typing-text"></span>
+              <span class="cursor">|</span>
+            </h2>
+            <p class="hero-sub">I build clean and modern websites</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn-primary">View Projects</a>
+              <a href="saad_cv.pdf" download class="btn-secondary">Download CV</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="mypic.jpeg" alt="myImage" />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-container reveal">
+          <!-- LEFT — photo -->
+          <div class="about-image">
+            <img src="mypic.jpeg" alt="Saad" />
+          </div>
+          <!-- RIGHT — text -->
+          <div class="about-text">
+            <!-- chhota heading upar -->
+            <p class="section-tag">WHO AM I</p>
+            <!-- bada heading -->
+            <h2>About <span class="gradient-name">Me</span></h2>
+
+            <!-- description -->
+            <p class="about-descip">
+              Apne baare mein likho — student ho, kya seekh rahe ho, kya banana
+              chahte ho...
+            </p>
+            <!-- 3 info items -->
+            <div class="about-info">
+              <p>Your University / College</p>
+              <p>Rahim Yar Khan, Pakistan</p>
+              <p>Available for Internship</p>
+            </div>
+
+            <!-- button -->
+            <a href="saad_cv.pdf" download class="btn-primary">Download CV</a>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="skills-container reveal">
+          <p class="section-tag">WHAT I KNOW</p>
+          <h2>My <span class="gradient-name">Skills</span></h2>
+          <div class="skills-grid">
+            <div class="flip-card">
+              <div class="flip-inner">
+                <div class="flip-front">
+                  <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="HTML"
+              />
+              <p>HTML</p>
+                </div>
+                <div class="flip-back">
+                  <h4>HTML5</h4>
+                  <p>Description</p>
+                  <div class="level-bar">
+                    <div class="level-fill" style="width: 90%;"></div>
+                  </div>
+                  <span class="level-text">Advanced</span>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-inner">
+                <div class="flip-front">
+                  <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="CSS"
+              />
+              <p>CSS</p>
+                </div>
+                <div class="flip-back">
+                  <h4>CSS3</h4>
+                  <p>Description</p>
+                  <div class="level-bar">
+                    <div class="level-fill" style="width: 90%;"></div>
+                  </div>
+                  <span class="level-text">Advanced</span>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-inner">
+                <div class="flip-front">
+                  <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript"
+              />
+              <p>JavaScript</p>
+                </div>
+                <div class="flip-back">
+                  <h4>JavaScript</h4>
+                  <p>Description</p>
+                  <div class="level-bar">
+                    <div class="level-fill" style="width: 70%"></div>
+                  </div>
+                  <span class="level-text">Intermediate</span>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-inner">
+                <div class="flip-front">
+                    <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt="Git"
+              />
+              <p>Git</p>
+                </div>
+                <div class="flip-back">
+                  <h4>Git</h4>
+                  <p>Description</p>
+                  <div class="level-bar">
+                    <div class="level-fill" style="width: 70%;"></div>
+                  </div>
+                  <span class="level-text">Intermediate</span>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-inner">
+                <div class="flip-front">
+                  <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub"
+              />
+              <p>GitHub</p>
+                </div>
+                <div class="flip-back">
+                  <h4>GitHub</h4>
+                  <p>Description</p>
+                  <div class="level-bar">
+                    <div class="level-fill" style="width: 90%;"></div>
+                  </div>
+                  <span class="level-text">Advanced</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects-container reveal">
+          <p class="section-tag">MY WORK</p>
+          <h2>My <span class="gradient-name">Projects</span></h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="mypic.jpeg" alt="projectName" />
+              </div>
+              <div class="project-info">
+                <h3>Project Name</h3>
+                <p>Chhoti si description — yeh project kya karta hai</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn-primary">Live Demo</a>
+                  <a href="#" class="btn-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          <div class="project-card">
+              <div class="project-image">
+                <img src="mypic.jpeg" alt="projectName" />
+              </div>
+              <div class="project-info">
+                <h3>Project Name</h3>
+                <p>Chhoti si description — yeh project kya karta hai</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn-primary">Live Demo</a>
+                  <a href="#" class="btn-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          <div class="project-card">
+              <div class="project-image">
+                <img src="mypic.jpeg" alt="projectName" />
+              </div>
+              <div class="project-info">
+                <h3>Project Name</h3>
+                <p>Chhoti si description — yeh project kya karta hai</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn-primary">Live Demo</a>
+                  <a href="#" class="btn-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          <div class="project-card">
+              <div class="project-image">
+                <img src="mypic.jpeg" alt="projectName" />
+              </div>
+              <div class="project-info">
+                <h3>Project Name</h3>
+                <p>Chhoti si description — yeh project kya karta hai</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn-primary">Live Demo</a>
+                  <a href="#" class="btn-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          <div class="project-card">
+              <div class="project-image">
+
+                <img src="mypic.jpeg" alt="projectName" />
+              </div>
+              <div class="project-info">
+                <h3>Project Name</h3>
+                <p>Chhoti si description — yeh project kya karta hai</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn-primary">Live Demo</a>
+                  <a href="#" class="btn-secondary">GitHub</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="contact-container reveal">
+            <p class="section-tag">GET IN TOUCH</p>
+            <h2>Contact <span class="gradient-name">Me</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p class="contact-desc">Koi bhi kaam ho — feel free to reach out!</p>
+                    <div class="contact-details">
+                        <p>📧 saadfadi831@email.com</p>
+                        <p>📍 Rahim Yar Khan, Pakistan</p>
+          <p>💼 Available for Internship</p>
+        </div>
+      </div>
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button class="btn-primary">Send Message</button>
+      </div>
+        </div>
+      </div></section>
+      
+    </main>
+<footer>
+  <div class="footer-container">
+
+    <!-- Logo -->
+    <a href="#home" class="logo">&lt;Saad /&gt;</a>
+
+    <!-- Social links -->
+    <div class="footer-links">
+      <a href="github link" target="_blank">GitHub</a>
+      <a href="linkedin link" target="_blank">LinkedIn</a>
+      <a href="mailto:email" >Email</a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="footer-copy">
+      © 2024 Saad. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+    <script src="typing_animation.js"></script>
+    <script src="scroll.js"></script>
+    <script src="loading_screen.js"></script>
+  </body>
+</html>
