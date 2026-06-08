@@ -63,4 +63,8 @@
   .about-text {
     text-align: center;
   }
+  .btn-primary{
+    justify-content: center;
+    width: 100%;
+  }
 }
