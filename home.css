@@ -185,8 +185,9 @@
     gap: 20px;
   }
   .code-card {
-    width: 90%;
+    width: 100%;
     align-items: center;
+    text-align: center;
   }
   .hero-text {
     width: 100%;
