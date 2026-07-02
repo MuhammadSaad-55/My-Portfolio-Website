@@ -11,11 +11,11 @@ A clean, modern, and fully responsive personal portfolio website built with vani
 
 ### Desktop View
 
-![Desktop Screenshot](images/desktop.png)
+![Desktop Screenshot](images/portfolio_desktop_view.png)
 
 ### Mobile View
 
-![Mobile Screenshot](images/mobile.png)
+![Mobile Screenshot](images/portfolio_mobile_view.png)
 
 ---
 
