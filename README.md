@@ -111,9 +111,3 @@ A clean, modern, and fully responsive personal portfolio website built with vani
 ---
 
 ⭐ **If you like this project, give it a star!**
-=======
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://my-portfolio-website-olive.vercel.app/)
-
-A personal portfolio website built with HTML, CSS and JavaScript.
-"
->>>>>>> 66cfff6c4c09e0226d07674c8593f6ed81577d7a
